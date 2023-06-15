@@ -1,0 +1,16 @@
+<div >
+    <div >
+        <h2 style="margin:auto">please login</h2>
+        <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+            Username:
+            <input type="text" class="form-control" formControlName="username" name="username" id="username" autocomplete="off">
+            <br/>password:
+            <input type="text" class="form-control" formControlName="password" id="password" autocomplete="off">
+           <br/> Firstname :
+            <input type="text" class="form-control" formControlName="firstname" name="firstname" id="firstname" autocomplete="off">
+           <br/> lasttname :
+            <input type="text" class="form-control" formControlName="lastname" name="lastname" id="lastname" autocomplete="off">
+            <button class="btn btn sucess">Add</button>
+        </form>
+    </div>
+</div>
